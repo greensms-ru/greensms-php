@@ -2,7 +2,7 @@ name: PHP Composer
 
 on:
   push:
-    branches: [main, build-matrix]
+    branches: [main, build-matrix, php-7.1-test]
   pull_request:
     branches: [main]
   release:
